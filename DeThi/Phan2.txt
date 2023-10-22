@@ -1,0 +1,23 @@
+Nội dung DML:
+
+	Câu 1: Viết câu DML để thêm dữ liệu vào trong bảng sự kiện gồm các dòng sau
+ID		TenSk			Ngay
+1		Workshop API		2023-10-16
+2		Talkshow Softskill	2023-09-10
+
+	Câu 2: Viết câu DML để thêm dữ liệu vào bảng DiaDiem gồm các dòng sau:
+MaDD			DiaChi
+00001			Công viên phần mềm Quang Trung
+00002			Nhà hát Hòa Bình
+00003			Đại học Tôn Đức Thắng
+	Câu 3: Viết câu DML để thêm dữ liệu vào bảng Chitiet gồm các dòng sau:
+ID		MaDD			Nội dung
+1		00001			Tác giả kỹ sư NVCMIS đến từ NashTech Việt Nam
+1		00003			Diễn giả kỹ sư NVC đến từ Alta Software
+2		00002			Diễn giả Miss Tran Linh đến từ cty TNHH ANBC
+
+Nội dung truy vấn:
+
+	Câu 4: Lấy tất cả các sự kiện đã diễn ra do diễn giả đến từ NashTech Việt Nam trình bày (gồm ID, TenSK và Ngày)
+	Câu 5: Đếm xem mỗi địa điểm diễn ra bao nhiêu sự kiện (gồm MaDD, Diachi và số lượng sự kiện)
+	Câu 6: Lấy ra MaDD, Diachi, TenSK với những sự kiện đã diễn ra và cả những địa chỉ chưa diễn ra sự kiện nào
